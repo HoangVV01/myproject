@@ -4,80 +4,57 @@
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
+
+<style>
+.profile-card {
+background: #fff;
+width: 600px;
+border-radius: 15px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+text-align: left;
+padding: 20px;
+position: relative;
+}
+
+.profile-card img {
+width: 100px;
+height: 100px;
+border-radius: 50%;
+object-fit: cover;
+border: 4px solid #4CAF50;
+}
+
+.profile-card h2 {
+margin: 10px 0;
+font-size: 22px;
+color: black;
+}
+
+.profile-card p {
+color: #777;
+font-size: 14px;
+}
+
+</style>
+
 <body>
-<h1>Hello World!</h1>
-<h2>Tiêu đề ít quan trọng hơn</h2>
-<h3>Heading 3</h3>
-<h4>Heading 4</h4>
-<h5>Heading 5</h5>
-<h6>Heading 6</h6>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusantium assumenda doloribus fugiat officiis? Commodi corporis eveniet itaque laudantium libero modi natus sed, suscipit tempore veniam! Enim eveniet omnis voluptas?</p>
-<p><b>Lorem ipsum dolor sit amet</b>, consectetur adipisicing elit. Ab accusamus earum fugit impedit libero molestias nesciunt odio optio pariatur perferendis quam, quasi quidem ratione rerum vel! Animi assumenda eligendi iste.</p>
-<p>
-    Hà Nội mùa thu, cây cơm nguội vàng, cây bàng lá đỏ<br>
-    <i>Nằm kề bên nhau, phố xưa nhà cổ, mái ngói thâm nâu</i><br>
-    Hà Nội mùa thu, mùa thu <mark>Hà Nội</mark><br>
-    <strong>Mùa hoa sữa về thơm từng con gió</strong><br>
-    <em>Mùa cốm xanh về thơm bàn tay nhỏ</em><br>
-    <span style="color: red">Cốm sữa vỉa hè</span> thơm bước chân qua<br>
-</p>
-<hr>
-<img src="https://unsplash.it/400" alt="Đây là hình ảnh">
-<img src="pikchu.svg" alt="Pikachu" width="100px" height="300px">
-<img src="pikchu.svg" alt="Pikachu" width="100">
-<img src="pikchu.svg" alt="Pikachu" width="100" height="100">
-<img src="ball-poke.png" alt="Ball" width="100" height="300px">
-<a href="https://codegym.vn" target="_blank">Liên kết tới trang CodeGym</a>
-<!--open tag-->
-<!--close tag-->
-<audio src="Golden-Hour-chosic.com_.mp3" controls></audio>
-<pre>
-    Hà Nội mùa thu, cây cơm nguội vàng, cây bàng lá đỏ
-Nằm kề bên nhau, phố xưa nhà cổ, mái ngói thâm nâu
-Hà Nội mùa thu, mùa thu Hà Nội
-Mùa hoa sữa về thơm từng con gió
-Mùa cốm xanh về thơm bàn tay nhỏ
-Cốm sữa vỉa hè thơm bước chân qua
-Hồ Tây chiều thu
-Mặt nước vàng lay, bờ xa mời gọi
-Màu sương thương nhớ
-Bầy sâm cầm nhỏ vỗ cánh mặt trời
-Hà Nội mùa thu, đi giữa mọi người
-Lòng như thầm hỏi, "Tôi đang nhớ ai?"
-Sẽ có một ngày trời thu Hà Nội trả lời cho tôi
-Sẽ có một ngày từng con đường nhỏ trả lời cho tôi
-Hà Nội mùa thu, cây cơm nguội vàng, cây bàng lá đỏ
-Nằm kề bên nhau, phố xưa nhà cổ, mái ngói thâm nâu
-Hà Nội mùa thu, mùa thu Hà Nội
-Mùa hoa sữa về thơm từng con gió
-Mùa cốm xanh về thơm bàn tay nhỏ
-Cốm sữa vỉa hè thơm bước chân qua
-Hồ Tây chiều thu
-Mặt nước vàng lay, bờ xa mời gọi
-Màu sương thương nhớ
-Bầy sâm cầm nhỏ vỗ cánh mặt trời
-Hà Nội mùa thu, đi giữa mọi người
-Lòng như thầm hỏi, "Tôi đang nhớ ai?"
-Sẽ có một ngày trời thu Hà Nội trả lời cho tôi
-Sẽ có một ngày từng con đường nhỏ trả lời cho tôi
-Hà Nội mùa thu, mùa thu Hà Nội
-Nhớ đến một người
-Để nhớ mọi người
-</pre>
-<!--<video src=""></video>-->
-<!--ul: unordered list-->
-<!--li: list item-->
-<ul type="square">
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>JavaScript</li>
-</ul>
-<!--ordered list-->
-<ol type="i">
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>JavaScript &lt;div&gt;</li>
-</ol>
-<p>&copy; Copyright 2024 CodeGym</p>
+<div class="profile-card">
+    <img src="./profile.png" alt="Profile Picture">
+    <h2>John Doe</h2>
+    <p>Fullstack Developer</p>
+    <div><b>Địa chỉ: </b> Số 8 Trần Duy Hưng</div>
+    <div><b>Số điện thoại: </b> 04343253112</div>
+    <div><b>Email: </b> abc@example.com</div>
+    <div><b>Học vấn: </b> Ứng dụng web bằng ReactJS, ứng dụng mobile bằng React Native</div>
+    <div><b>Bằng cấp: </b> Cử nhân công nghệ thông tin</div>
+    <div><b>Kỹ năng: </b> Html, Css, Js, ReactJS, ReactNative, VueJS, NodeJS, MySQL, MongoDB</div>
+    <div><b>Kinh nghiệm: </b> Dự án quản lý khách sạn Hotel Maria</div>
+    <div><b>Định hướng phát triển: </b> Theo MERN stack: MongoDB, ExpressJS, ReactJS, NodeJS</div>
+    <hr>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/qFWy6dynBcY?si=aKPuAAi1JlwEMBKE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <p>&copy; Copyright John Doe</p>
+</div>
+
+
 </body>
 </html>
